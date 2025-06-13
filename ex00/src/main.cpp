@@ -8,7 +8,7 @@ int main() {
     v.push_back(30);
     
     try {
-        std::vector<int>::iterator it = easyfind(v, 10);
+        std::vector<int>::iterator it = easyfind(v, 40);
         std::cout << "Found: " << *it << std::endl;
     } catch (const std::exception& e) {
         std::cerr << e.what() << std::endl;
